@@ -1,0 +1,13 @@
+Dans le cadre de votre de projet de TP, il vous est demandé de développer une application bureau de gestion d’hôtel en langage Java.
+L’application doit avoir au minimum deux types d’utilisateurs : 
+Administrateur : L’administrateur doit au moins pouvoir :
+Gérer les chambres (créer, modifier supprimer)
+Gérer les réservations (accéder aux demandes, accepter, décliner)
+Client : Le client doit au moins pouvoir :
+Demander une réservation de chambre, modifier sa réservation, annuler sa réservation
+
+Tous les utilisateurs doivent s’authentifier avant d’utiliser l’application
+Vous devez gérer toutes les exceptions (l’administrateur ne peut pas modifier ou supprimer une chambre déjà réservée, le client ne peut annuler sa réservation qu’avant la date de début de cette réservation… etc)
+L’architecture de l’application devra se faire en MVC, les données devront être stockées dans des collections de type Map et les utilisateurs auront accès à l’application à travers des interfaces graphiques.
+L’utilisation de bases de données est autorisée.
+L’utilisation de la bibliothèque date n’est pas autorisée.
